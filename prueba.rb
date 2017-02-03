@@ -29,9 +29,6 @@ op = gets.chomp.to_i
       end
     
     when 3
-      def show(name, date, studio, category, votes)
-        puts "#{name}: #{date}"
-      end
     
     when 4
       system("exit")
